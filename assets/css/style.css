@@ -1,4 +1,16 @@
-/* hello */
-h1{
+
+.me_header{
     color:#000000;
+}
+
+.pic{
+    border-style: solid;
+    border-color: #2dafe2;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+.basicinput{
+    width: 600px;
 }
