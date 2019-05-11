@@ -1,18 +1,19 @@
 
 .me_header{
-    
-    color:rgba(224, 214, 214, 0.849);
-    background-color: rgb(82, 82, 168);
-    border-color: rgb(82, 82, 168);
+    color:white;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
     border-width: 5px;
-    border-radius: 10px;
     border-style: solid;
     float: top;
     text-align: center;
     padding: 0%;
     margin: 0%;
-
-
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    width: 15%;
+    padding: 25px;
+    position: absolute
 }
 
 .pic{
@@ -22,7 +23,12 @@
     border-radius: 10px;
     height: 250px;
     width: 250px;
+    float: left;
 }
-.basicinput{
-    width: 600px;
+.basic_input{
+    width: 1000px;
+}
+
+.about{
+float: inline-start
 }
