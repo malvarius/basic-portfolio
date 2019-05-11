@@ -1,19 +1,42 @@
 
+body{
+    background-color: #ffffff;
+}
+
+
 .me_header{
     color:white;
     background-color: #4aaaa5;
     border-color: #4aaaa5;
     border-width: 5px;
     border-style: solid;
-    float: top;
     text-align: center;
     padding: 0%;
     margin: 0%;
     font-family: 'Roboto', sans-serif;
-    float: left;
+    font-size: 30px;
     width: 15%;
     padding: 25px;
-    position: absolute
+    position: absolute;
+    left: 20%;
+    top: 50px;  
+}
+.about_me{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 22%;
+    top: 180px; 
+    color: #4aaaa5;
+
+
+}
+
+.headback{
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px;
 }
 
 .pic{
@@ -23,7 +46,9 @@
     border-radius: 10px;
     height: 250px;
     width: 250px;
-    float: left;
+    position: absolute;
+    left: 22%;
+    top: 300px;  
 }
 .basic_input{
     width: 1000px;
