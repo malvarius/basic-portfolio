@@ -1,7 +1,7 @@
 
 body{
     background-color: tan;
-   background-image: url(/memphis-mini-dark.png)
+   background-image: url("memphis-mini-dark.png")
 }
 
 .most_back{
@@ -10,6 +10,14 @@ body{
     height: 960px;
     position: absolute;
     left: 10%;
+    top: 200px;
+}
+.most_back2{
+    background-color: #ffffff;
+    width: 60%;
+    height: 700px;
+    position: absolute;
+    left: 20%;
     top: 200px;
 
 }
@@ -46,9 +54,78 @@ body{
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }
+.about_me_contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:30%;
+    top: 180px; 
+    color: #4aaaa5;
+    height: 90px;
+    width: 800px;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+.name{
+    width:300px;
+    position: absolute;
+    left: 30%;
+    top: 300px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+}
+.email {
+        width:300px;
+        position: absolute;
+        left: 30%;
+        top: 375px;
+        line-height: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #4aaaa5;
+    
+}
+.message {
+    width:300px;
+    position: absolute;
+    left: 30%;
+    top: 450px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+
+}
+
+.basic_input {
+    width: 800px;
+}
+
+.message_input{
+    width: 800px;
+    height: 200px;
+}
+#submit_button  {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 30%;
+    top: 700px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+
+}
 .about_me_text{
     position: relative;
-    left:7.5%;
+    left:8%;
+}
+.about_me_text2{
+    position: relative;
+    left:0%;
 }
 .contact{
     height:20px ;
@@ -80,6 +157,8 @@ body{
     position: absolute;
     top: 130px;
 }
+
+
 .headback{
 
     width: 100%;
@@ -133,9 +212,6 @@ body{
     left: 18%;
     top: 300px;  
 }
-
-
-
 .about{
 position: absolute;
 right: 80px;
