@@ -5,10 +5,11 @@ background-color:tan;
 
 .most_back{
     background-color: #ffffff;
-    width: 95%;
-    height: 650px;
-    position: relative;
-    left: 2.5%;
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 10%;
+    top: 200px;
 
 }
 
@@ -24,7 +25,7 @@ background-color:tan;
     margin: 0%;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    width: 15%;
+    width: 10%;
     padding: 25px;
     position: absolute;
     left: 20%;
@@ -34,23 +35,64 @@ background-color:tan;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     position: absolute;
-    left: 22%;
+    left:15%;
     top: 180px; 
+    text-align: start;
     color: #4aaaa5;
+    height: 90px;
+    width: 70%;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+.about_me_text{
+    position: relative;
+    left:7.5%;
 }
 .contact{
     height:20px ;
     position: absolute;
+    font-family: 'Roboto', sans-serif;
     top: 50px;
-    right: 150px;
+    right: 300px;
+    z-index: 12;
+    position: absolute;
+    top: 130px;
+}
+.portfolio{
+    height:20px ;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 50px;
+    right: 200px;
+    z-index: 12;
+    position: absolute;
+    top: 130px;
+}
+.index{
+    height:20px ;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 50px;
+    right: 100px;
+    z-index: 12;
+    position: absolute;
+    top: 130px;
 }
 .headback{
 
     width: 100%;
     background-color: #ffffff;
     padding: 80px;
-    position: relative;
-    bottom: 15px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 10;
+    border-color: #ffffff;
+    border-bottom-color: #4aaaa5;
+    border-style: solid;
+    border-bottom-width: 3px;
+    
 }
 
 .abt{
@@ -65,6 +107,20 @@ background-color:tan;
     line-height: 70px;
 }
 
+.abt_text{
+    position: relative;
+    right: 10%;
+}
+.abt_text2{
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    line-height: 70px;
+}
+
 .pic{
     border-style: solid;
     border-color: #2dafe2;
@@ -73,13 +129,11 @@ background-color:tan;
     height: 250px;
     width: 250px;
     position: absolute;
-    left: 22%;
+    left: 18%;
     top: 300px;  
 }
 
-.basic_input{
-    width: 1000px;
-}
+
 
 .about{
 position: absolute;
@@ -89,6 +143,7 @@ top:300px;
 
 .copyright{
     position: absolute;
+    left: 0;
     bottom: 0;
     border-width: 5px;
     border-top-color: #4aaaa5;
