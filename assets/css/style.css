@@ -1,6 +1,15 @@
 
 body{
-background-color: gray;
+background-color:tan;
+}
+
+.most_back{
+    background-color: #ffffff;
+    width: 95%;
+    height: 650px;
+    position: relative;
+    left: 2.5%;
+
 }
 
 
@@ -19,7 +28,7 @@ background-color: gray;
     padding: 25px;
     position: absolute;
     left: 20%;
-    top: 50px;  
+    top: 63px;  
 }
 .about_me{
     font-family: 'Roboto', sans-serif;
@@ -39,14 +48,16 @@ background-color: gray;
 
     width: 100%;
     background-color: #ffffff;
-    padding: 25px;
+    padding: 80px;
+    position: relative;
+    bottom: 15px;
 }
 
 .abt{
     float: right;
-    position: relative;
+    position: absolute;
     right:7%;
-    top:220px;
+    top:260px;
     width: 50%;
     height: 250px;
     font-family: Arial, Helvetica, sans-serif;
