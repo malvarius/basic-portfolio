@@ -102,11 +102,11 @@ overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     position: absolute;
-    left:30%;
+    left:500px;
     top: 180px; 
     color: #4aaaa5;
     height: 90px;
-    width: 800px;
+    width: 900px;
     border-bottom: #2dafe2;
     border-bottom-width: 3px;
     border-bottom-style: solid;
@@ -127,7 +127,7 @@ overflow-x: hidden;
 .name{
     width:300px;
     position: absolute;
-    left: 30%;
+    left: 500px;
     top: 300px;
     line-height: 10px;
     font-family: 'Roboto', sans-serif;
@@ -136,7 +136,7 @@ overflow-x: hidden;
 .email {
         width:300px;
         position: absolute;
-        left: 30%;
+        left: 500px;
         top: 375px;
         line-height: 10px;
         font-family: 'Roboto', sans-serif;
@@ -146,7 +146,7 @@ overflow-x: hidden;
 .message {
     width:300px;
     position: absolute;
-    left: 30%;
+    left: 500px;
     top: 450px;
     line-height: 10px;
     font-family: 'Roboto', sans-serif;
@@ -155,19 +155,19 @@ overflow-x: hidden;
 }
 
 .basic_input {
-    width: 800px;
+    width: 900px;
     height: 25px;
 }
 
 .message_input{
-    width: 800px;
+    width: 900px;
     height: 200px;
 }
 #submit_button  {
     height: 50px;
     width: 150px;
     position: absolute;
-    left: 30%;
+    left: 500px;
     top: 700px;
     line-height: 10px;
     font-family: 'Roboto', sans-serif;
