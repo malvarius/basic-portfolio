@@ -1,7 +1,8 @@
 
 body{
-    background-color: tan;
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6X746Efllj6LeQZtX7d4q8QIXdPEPGzPZLvBZlGDrxJsllSM')
+    width: 960px;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6X746Efllj6LeQZtX7d4q8QIXdPEPGzPZLvBZlGDrxJsllSM');
+overflow-x: hidden;
 }
 
 .most_back{
@@ -20,6 +21,49 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6
     left: 20%;
     top: 200px;
 
+}
+.most_back3{
+    background-color: #ffffff;
+    width: 60%;
+    height: 960px;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+
+}
+.imglink1 {
+
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 300px;
+    left: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.imglink2 {
+
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 600px;
+    left: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    
 }
 
 
@@ -67,6 +111,19 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }
+.about_me_portfolio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:25%;
+    top: 180px; 
+    color: #4aaaa5;
+    height: 90px;
+    width: 950px;
+    border-bottom: #2dafe2;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
 .name{
     width:300px;
     position: absolute;
@@ -99,6 +156,7 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6
 
 .basic_input {
     width: 800px;
+    height: 25px;
 }
 
 .message_input{
@@ -126,6 +184,10 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6
 .about_me_text2{
     position: relative;
     left:0%;
+}
+.about_me_text3{
+    position: relative;
+    left:0;
 }
 .contact{
     height:20px ;
