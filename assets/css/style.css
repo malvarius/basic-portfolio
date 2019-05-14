@@ -189,12 +189,12 @@ overflow-x: hidden;
     position: relative;
     left:0;
 }
-.contact{
+.index{
     height:20px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 50px;
-    right: 500px;
+    right: 480px;
     z-index: 12;
     position: absolute;
     top: 130px;
@@ -209,7 +209,7 @@ overflow-x: hidden;
     position: absolute;
     top: 130px;
 }
-.index{
+.contact{
     height:20px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
