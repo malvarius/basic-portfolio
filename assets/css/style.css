@@ -8,6 +8,7 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6
 overflow-x: hidden;
 }
 
+/* most backs are the white aread between main content and bacground */
 .most_back{
     background-color: #ffffff;
     width: 80%;
@@ -15,6 +16,10 @@ overflow-x: hidden;
     position: absolute;
     left: 10%;
     top: 200px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .most_back2{
     background-color: #ffffff;
@@ -23,6 +28,10 @@ overflow-x: hidden;
     position: absolute;
     left: 20%;
     top: 200px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
 
 }
 .most_back3{
@@ -32,10 +41,12 @@ overflow-x: hidden;
     position: absolute;
     left: 20%;
     top: 200px;
-
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .imglink1 {
-
     position: absolute;
     width: 300px;
     height: 250px;
@@ -49,10 +60,8 @@ overflow-x: hidden;
     border-radius: 4px;
     text-align: center;
     font-size: 24px;
-    
 }
 .imglink2 {
-
     position: absolute;
     width: 300px;
     height: 250px;
@@ -65,17 +74,47 @@ overflow-x: hidden;
     border-width: 4px;
     border-radius: 4px;
     text-align: center;
-    font-size: 24px;
-    
+    font-size: 24px; 
+}
+.imglink3 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 300px;
+    left: 850px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px; 
+}
+.imglink4 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 600px;
+    left: 850px;
+    font-family: 'Roboto', sans-serif;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px; 
 }
 
-
+/* me header is the name Eric Malvar with a blue background */
 .me_header{
     color:white;
     background-color: #4aaaa5;
     border-color: #4aaaa5;
     border-width: 5px;
     border-style: solid;
+    border-radius: 2px;
     text-align: center;
     padding: 0%;
     margin: 0%;
@@ -87,6 +126,7 @@ overflow-x: hidden;
     left: 20%;
     top: 63px;  
 }
+/* about me's are the title with the underline border on each html */
 .about_me{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
@@ -127,6 +167,8 @@ overflow-x: hidden;
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }
+
+/* .name .email .message and #submitbutton are all the inputs and buttons for the contact page */
 .name{
     width:300px;
     position: absolute;
@@ -154,20 +196,6 @@ overflow-x: hidden;
     line-height: 10px;
     font-family: 'Roboto', sans-serif;
     color: #4aaaa5;
-
-}
-
-.basic_input {
-    width: 900px;
-    height: 25px;
-}
-
-.message_input{
-    width: 900px;
-    height: 200px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
 }
 #submit_button  {
     height: 50px;
@@ -181,8 +209,22 @@ overflow-x: hidden;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
-
 }
+
+/* basic and message input are details for the text boxes in the contact me page */
+.basic_input {
+    width: 900px;
+    height: 25px;
+}
+
+.message_input{
+    width: 900px;
+    height: 200px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 .about_me_text{
     position: relative;
     left:8%;
