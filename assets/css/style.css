@@ -190,7 +190,7 @@ overflow-x: hidden;
     left:0;
 }
 .index{
-    height:20px ;
+    height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
     right: 480px;
@@ -198,13 +198,13 @@ overflow-x: hidden;
     position: absolute;
     top: 110px;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
     border-right-style: solid;
     border-right-width: 3px;
     border-right-color: #666666
 }
 .portfolio{
-    height:20px ;
+    height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 30px;
@@ -213,13 +213,13 @@ overflow-x: hidden;
     position: absolute;
     top: 110px;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
     border-right-style: solid;
     border-right-width: 3px;
     border-right-color: #666666
 }
 .contact{
-    height:20px ;
+    height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 30px;
@@ -228,7 +228,7 @@ overflow-x: hidden;
     position: absolute;
     top: 110px;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
 }
 
 
