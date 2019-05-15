@@ -1,3 +1,6 @@
+/* Anything with _contact or 2 regards only the contact html page */
+/* Anything with _portfolio or ending in 3 regards only the portfolio html page */
+
 
 body{
     width: 960px;
@@ -162,6 +165,9 @@ overflow-x: hidden;
 .message_input{
     width: 900px;
     height: 200px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 #submit_button  {
     height: 50px;
@@ -304,4 +310,7 @@ top:300px;
     height: 50px;
     font-family: Arial, Arial, Helvetica, sans-serif;
     color: #ffffff;
+    border-top-color: #2dafe2;
+    border-top-style: solid;
+    border-top-width: 8px;
 }
