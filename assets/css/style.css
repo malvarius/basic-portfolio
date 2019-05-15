@@ -193,31 +193,42 @@ overflow-x: hidden;
     height:20px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 50px;
     right: 480px;
     z-index: 12;
     position: absolute;
-    top: 130px;
+    top: 110px;
+    text-decoration: none;
+    padding: 5px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #666666
 }
 .portfolio{
     height:20px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 50px;
+    top: 30px;
     right: 400px;
     z-index: 12;
     position: absolute;
-    top: 130px;
+    top: 110px;
+    text-decoration: none;
+    padding: 5px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #666666
 }
 .contact{
     height:20px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 50px;
+    top: 30px;
     right: 300px;
     z-index: 12;
     position: absolute;
-    top: 130px;
+    top: 110px;
+    text-decoration: none;
+    padding: 5px;
 }
 
 
@@ -251,12 +262,12 @@ overflow-x: hidden;
 
 .abt_text{
     position: relative;
-    right: 10%;
+    right: 15%;
 }
 .abt_text2{
     position: absolute;
-    left: 15%;
-    bottom: 15%;
+    left: 18%;
+    bottom: 22%;
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     color: #4aaaa5;
