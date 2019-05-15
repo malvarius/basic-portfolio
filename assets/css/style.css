@@ -4,7 +4,7 @@
 
 body{
     width: 960px;
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6X746Efllj6LeQZtX7d4q8QIXdPEPGzPZLvBZlGDrxJsllSM');
+background-image: url('../../memphis-mini-dark.png');
 overflow-x: hidden;
 }
 
@@ -105,6 +105,12 @@ overflow-x: hidden;
     border-radius: 4px;
     text-align: center;
     font-size: 24px; 
+    background-image: url('../../memphis-mini-dark.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.links{
+    text-decoration: none;
 }
 
 /* me header is the name Eric Malvar with a blue background */
@@ -241,6 +247,7 @@ overflow-x: hidden;
     height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     right: 480px;
     z-index: 12;
     position: absolute;
@@ -255,6 +262,7 @@ overflow-x: hidden;
     height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     top: 30px;
     right: 400px;
     z-index: 12;
@@ -270,6 +278,7 @@ overflow-x: hidden;
     height:15px ;
     position: absolute;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     top: 30px;
     right: 300px;
     z-index: 12;
